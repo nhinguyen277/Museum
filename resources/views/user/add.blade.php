@@ -10,7 +10,7 @@
 
 <h2>Add User</h2>
 
-<p class="pt-3"><a class="btn btn-secondary text-white" href="users.php"><i class="bi bi-arrow-bar-left"></i> &nbsp;Return to User List</a></p>
+<p class="pt-3"><a class="btn btn-secondary text-white" href="/user/list"><i class="bi bi-arrow-bar-left"></i> &nbsp;Return to User List</a></p>
 
 <form method="post" action="/user/add" novalidate>
   <?= csrf_field()?>

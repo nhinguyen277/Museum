@@ -7,7 +7,7 @@
 
 <h2>Edit Museum</h2>
 
-<p class="pt-3"><a class="btn btn-secondary text-white" href="museums.php"><i class="bi bi-arrow-bar-left"></i> Return to Museum List</a></p>
+<p class="pt-3"><a class="btn btn-secondary text-white" href="/museum/index"><i class="bi bi-arrow-bar-left"></i> Return to Museum List</a></p>
 
 <form method="post" action="/museum/edit/<?= $museum->id ?>" novalidate enctype="multipart/form-data">
 <?= csrf_field()?>
