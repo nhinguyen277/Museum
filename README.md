@@ -7,60 +7,58 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About This Laravel Assignment
+This Laravel Assignment is based on my group's last php assignment about Toronto Gallery Guide website.
+In this assignment, I the admin site with Laravel version with museums, comments, and users management. Each of them is built with list, create, edit, and delete.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+I created 3 tables for this database related to museums, comments, and users. Basically, The users table has one to many relationships with the comments table and the museums table has one to many relationships with the comments table.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/5255d767-be01-4739-8a9d-4adec618e576)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+To have a good experience to this website. Please follow these step below.
+1. Get access to the link .../user/index.
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/5886c4c4-232b-4344-ba8f-ee93f3517f9c)
 
-## Learning Laravel
+2. Click login button to login admin account:
+   email: test@test.com
+   password: password
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/7afa4aa3-0350-497e-b613-30bfef6b98d2)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+4. When login successfully, you can see the index page of admin and choose options (Manage Museums, Manage Comments, Manage Users) to experience.
+![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/9355b427-433f-43af-93c5-92c5bd2d4cf8)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+5. If you choose Mange Museums, Manage Comments or Manage Users, you will go to their lists with some options to select (add, edit and delete)
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/28f7c463-750d-4075-9596-42886803ecd6)
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/f6f2b21c-c8b0-4dd2-aa42-2dc87ddd575b)
+    ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/641c58c5-f637-467d-b8af-513b639e548b)
 
-## Laravel Sponsors
+   . Add new record: you need to fill in fields for every feature and upload image (only for the museum) here.
+   . Edit: you can update new information and another image(for Manage Museums).
+   . Delete: you can delete data.
+   . These are add and edit pages for museums.
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/615bd665-75ea-4546-b783-e19134557c98)
+   
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/68d29910-b2c4-4e0c-86de-c5cf22b0eb2b)
+   
+   . These are add and edit pages for comments
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/d24a5bf0-783c-498c-a533-9954dadea1a5)
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/d42fb50b-9d89-4332-b9b1-6fe063ef5b95)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+   . These are add and edit pages for users.
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/523059bb-70f5-4273-a909-3cfc00426282)
+   ![image](https://github.com/nhinguyen277/MuseumLMS/assets/144495047/a9b80465-bd2a-4d71-b83f-5dff7dd6e166)
 
-### Premium Partners
+   With me, Laravel is an understandable framework but it is quite wide and not have enough time to learn from class.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+   
+   
+   
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
